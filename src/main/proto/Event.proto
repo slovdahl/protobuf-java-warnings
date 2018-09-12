@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.foo.bar.proto;
+
+option java_outer_classname = "Event";
+
+message Foo {
+    int32 id = 1;
+}
